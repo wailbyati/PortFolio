@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="John Doe - Full Stack Developer Portfolio. Experienced in React, Node.js, Python, and modern web technologies. View projects and get in touch for collaboration.">
+    <meta name="keywords" content="full stack developer, web developer, React, Node.js, Python, JavaScript, portfolio, software engineer">
+    <meta name="author" content="John Doe">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourdomain.com/">
+    <meta property="og:title" content="John Doe - Full Stack Developer Portfolio">
+    <meta property="og:description" content="Experienced Full Stack Developer specializing in modern web technologies. View my projects and get in touch for collaboration.">
+    <meta property="og:image" content="https://yourdomain.com/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://yourdomain.com/">
+    <meta property="twitter:title" content="John Doe - Full Stack Developer Portfolio">
+    <meta property="twitter:description" content="Experienced Full Stack Developer specializing in modern web technologies. View my projects and get in touch for collaboration.">
+    <meta property="twitter:image" content="https://yourdomain.com/og-image.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+    <title>John Doe - Full Stack Developer Portfolio</title>
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"></noscript>
+    
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"></noscript>
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "John Doe",
+        "jobTitle": "Full Stack Developer",
+        "description": "Experienced Full Stack Developer specializing in modern web technologies",
+        "email": "john.doe@email.com",
+        "telephone": "+1 (555) 123-4567",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Francisco",
+            "addressRegion": "CA"
+        },
+        "url": "https://yourdomain.com",
+        "sameAs": [
+            "https://github.com/yourusername",
+            "https://linkedin.com/in/yourusername"
+        ],
+        "knowsAbout": ["Web Development", "React", "Node.js", "Python", "JavaScript"]
+    }
+    </script>
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home" aria-label="Home">JD</a>
+            </div>
+            <ul class="nav-menu" role="menubar">
+                <li class="nav-item" role="none">
+                    <a href="#home" class="nav-link" role="menuitem">Home</a>
+                </li>
+                <li class="nav-item" role="none">
+                    <a href="#about" class="nav-link" role="menuitem">About</a>
+                </li>
+                <li class="nav-item" role="none">
+                    <a href="#skills" class="nav-link" role="menuitem">Skills</a>
+                </li>
+                <li class="nav-item" role="none">
+                    <a href="#projects" class="nav-link" role="menuitem">Projects</a>
+                </li>
+                <li class="nav-item" role="none">
+                    <a href="#experience" class="nav-link" role="menuitem">Experience</a>
+                </li>
+                <li class="nav-item" role="none">
+                    <a href="#contact" class="nav-link" role="menuitem">Contact</a>
+                </li>
+            </ul>
+            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+                <span class="bar" aria-hidden="true"></span>
+                <span class="bar" aria-hidden="true"></span>
+                <span class="bar" aria-hidden="true"></span>
+            </button>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero" aria-labelledby="hero-title">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 id="hero-title" class="hero-title">
+                        Hi, I'm <span class="highlight">John Doe</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Full Stack Developer</h2>
+                    <p class="hero-description">
+                        Passionate about creating innovative digital solutions and turning ideas into reality through code.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary" aria-label="View my projects">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary" aria-label="Get in touch">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image" aria-hidden="true">
+                    <div class="code-animation">
+                        <div class="code-line">const developer = {</div>
+                        <div class="code-line">  name: "John Doe",</div>
+                        <div class="code-line">  role: "Full Stack Developer",</div>
+                        <div class="code-line">  passion: "Creating amazing apps"</div>
+                        <div class="code-line">};</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about" aria-labelledby="about-title">
+            <div class="container">
+                <h2 id="about-title" class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            I'm a passionate Full Stack Developer with 5+ years of experience in building web applications 
+                            and digital solutions. I specialize in modern web technologies and love creating user-friendly, 
+                            scalable applications that solve real-world problems.
+                        </p>
+                        <p>
+                            When I'm not coding, you can find me exploring new technologies, contributing to open-source 
+                            projects, or sharing knowledge with the developer community. I believe in continuous learning 
+                            and staying up-to-date with the latest industry trends.
+                        </p>
+                        <div class="about-stats" role="list" aria-label="Professional statistics">
+                            <div class="stat" role="listitem">
+                                <h3>5+</h3>
+                                <p>Years Experience</p>
+                            </div>
+                            <div class="stat" role="listitem">
+                                <h3>50+</h3>
+                                <p>Projects Completed</p>
+                            </div>
+                            <div class="stat" role="listitem">
+                                <h3>20+</h3>
+                                <p>Happy Clients</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <div class="image-placeholder" aria-label="Profile picture placeholder">
+                            <i class="fas fa-user" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills" aria-labelledby="skills-title">
+            <div class="container">
+                <h2 id="skills-title" class="section-title">Skills & Technologies</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <div class="skill-items" role="list" aria-label="Frontend skills">
+                            <div class="skill-item" role="listitem">
+                                <i class="fab fa-html5" aria-hidden="true"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="skill-item" role="listitem">
+                                <i class="fab fa-css3-alt" aria-hidden="true"></i>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="skill-item" role="listitem">
+                                <i class="fab fa-js" aria-hidden="true"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-item" role="listitem">
+                                <i class="fab fa-react" aria-hidden="true"></i>
+                                <span>React</span>
+                            </div>
+                            <div class="skill-item" role="listitem">
+                                <i class="fab fa-vuejs" aria-hidden="true"></i>
+                                <span>Vue.js</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <div class="skill-items" role="list" aria-label="Backend skills">
+                            <div class="skill-item" role="listitem">
+                                <i class="fab fa-node-js" aria-hidden="true"></i>
+                                <span>Node.js</span>
+                            </div>
+                            <div class="skill-item" role="listitem">
+                                <i class="fab fa-python" aria-hidden="true"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-item" role="listitem">
+                                <i class="fab fa-java" aria-hidden="true"></i>
+                                <span>Java</span>
+                            </div>
+                            <div class="skill-item" role="listitem">
+                                <i class="fas fa-database" aria-hidden="true"></i>
+                                <span>SQL</span>
+                            </div>
+                            <div class="skill-item" role="listitem">
+                                <i class="fab fa-aws" aria-hidden="true"></i>
+                                <span>AWS</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools & Others</h3>
+                        <div class="skill-items" role="list" aria-label="Tools and other skills">
+                            <div class="skill-item" role="listitem">
+                                <i class="fab fa-git-alt" aria-hidden="true"></i>
+                                <span>Git</span>
+                            </div>
+                            <div class="skill-item" role="listitem">
+                                <i class="fab fa-docker" aria-hidden="true"></i>
+                                <span>Docker</span>
+                            </div>
+                            <div class="skill-item" role="listitem">
+                                <i class="fab fa-linux" aria-hidden="true"></i>
+                                <span>Linux</span>
+                            </div>
+                            <div class="skill-item" role="listitem">
+                                <i class="fas fa-cloud" aria-hidden="true"></i>
+                                <span>Cloud</span>
+                            </div>
+                            <div class="skill-item" role="listitem">
+                                <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+                                <span>Mobile Dev</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects" aria-labelledby="projects-title">
+            <div class="container">
+                <h2 id="projects-title" class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="image-placeholder" aria-label="E-commerce platform project">
+                                <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>E-Commerce Platform</h3>
+                            <p>A full-stack e-commerce solution with React frontend, Node.js backend, and MongoDB database.</p>
+                            <div class="project-tech" aria-label="Technologies used">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small" aria-label="View live demo of E-commerce platform">Live Demo</a>
+                                <a href="#" class="btn btn-small btn-outline" aria-label="View source code on GitHub">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="image-placeholder" aria-label="Analytics dashboard project">
+                                <i class="fas fa-chart-line" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Analytics Dashboard</h3>
+                            <p>Real-time data visualization dashboard with interactive charts and real-time updates.</p>
+                            <div class="project-tech" aria-label="Technologies used">
+                                <span>Vue.js</span>
+                                <span>Python</span>
+                                <span>D3.js</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small" aria-label="View live demo of Analytics dashboard">Live Demo</a>
+                                <a href="#" class="btn btn-small btn-outline" aria-label="View source code on GitHub">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="image-placeholder" aria-label="Task management app project">
+                                <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Task Management App</h3>
+                            <p>Cross-platform mobile application for team collaboration and project management.</p>
+                            <div class="project-tech" aria-label="Technologies used">
+                                <span>React Native</span>
+                                <span>Firebase</span>
+                                <span>Redux</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small" aria-label="View live demo of Task management app">Live Demo</a>
+                                <a href="#" class="btn btn-small btn-outline" aria-label="View source code on GitHub">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience" aria-labelledby="experience-title">
+            <div class="container">
+                <h2 id="experience-title" class="section-title">Work Experience</h2>
+                <div class="timeline" role="list" aria-label="Work experience timeline">
+                    <div class="timeline-item" role="listitem">
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>Senior Full Stack Developer</h3>
+                                <span class="company">TechCorp Inc.</span>
+                                <span class="period">2022 - Present</span>
+                            </div>
+                            <p>Leading development of enterprise web applications, mentoring junior developers, and implementing best practices for scalable architecture.</p>
+                            <ul>
+                                <li>Developed and maintained 10+ web applications</li>
+                                <li>Reduced application load time by 40%</li>
+                                <li>Mentored 5 junior developers</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item" role="listitem">
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>Full Stack Developer</h3>
+                                <span class="company">StartupXYZ</span>
+                                <span class="period">2020 - 2022</span>
+                            </div>
+                            <p>Built and deployed multiple web applications from concept to production, working closely with design and product teams.</p>
+                            <ul>
+                                <li>Built 15+ web applications</li>
+                                <li>Implemented CI/CD pipelines</li>
+                                <li>Improved user engagement by 60%</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item" role="listitem">
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>Junior Developer</h3>
+                                <span class="company">WebSolutions</span>
+                                <span class="period">2019 - 2020</span>
+                            </div>
+                            <p>Started my professional journey developing frontend components and learning modern web technologies.</p>
+                            <ul>
+                                <li>Developed responsive UI components</li>
+                                <li>Collaborated with senior developers</li>
+                                <li>Learned modern frameworks</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact" aria-labelledby="contact-title">
+            <div class="container">
+                <h2 id="contact-title" class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Let's work together!</h3>
+                        <p>I'm always interested in new opportunities and exciting projects. Feel free to reach out if you'd like to collaborate or just want to say hello.</p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope" aria-hidden="true"></i>
+                                <a href="mailto:john.doe@email.com">john.doe@email.com</a>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone" aria-hidden="true"></i>
+                                <a href="tel:+15551234567">+1 (555) 123-4567</a>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                                <span>San Francisco, CA</span>
+                            </div>
+                        </div>
+                        <div class="social-links" aria-label="Social media links">
+                            <a href="#" class="social-link" aria-label="GitHub profile">
+                                <i class="fab fa-github" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="LinkedIn profile">
+                                <i class="fab fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Twitter profile">
+                                <i class="fab fa-twitter" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Instagram profile">
+                                <i class="fab fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <form class="contact-form" action="#" method="POST" aria-labelledby="contact-form-title">
+                        <h3 id="contact-form-title" class="visually-hidden">Contact Form</h3>
+                        <div class="form-group">
+                            <label for="name" class="visually-hidden">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="visually-hidden">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="visually-hidden">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="visually-hidden">Message</label>
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required aria-required="true"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <p>&copy; <span id="current-year">2024</span> John Doe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Load JavaScript -->
+    <script src="script.js" defer></script>
+</body>
+</html> 
